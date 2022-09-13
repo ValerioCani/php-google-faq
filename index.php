@@ -78,7 +78,13 @@
     <main>
         <?php
             for($i=0; $i<count($faqs); $i++){
-                echo "". $navbar[$i] ."";
+                echo    "<h2>". 
+                            $faqs[$i]["question"] .
+                        "</h2>".
+                        "<p>". 
+                            $faqs[$i]["answer"] .
+                        "</p>"
+                ;
             }
         ?>
     </main>

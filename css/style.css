@@ -25,3 +25,8 @@ header ul li:hover{
     color: blue;
     border-bottom: solid 3px blue;
 }
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
