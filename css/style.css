@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 95px;
+}
+
+header ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li{
+    line-height: 40px;
+    margin: 10px;
+    border-bottom: solid 3px #fff;
+}
+
+header ul li:hover{
+    color: blue;
+    border-bottom: solid 3px blue;
+}
