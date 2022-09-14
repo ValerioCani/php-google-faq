@@ -79,11 +79,9 @@
     </header>
     <main>
         <?php
-            for($i=0; $i<count($faqs); $i++){
-                $faq = $faqs[$i];
+            foreach($faqs as $faq){
                 echo "</br><h2>". $faq["question"] . "</h2>";
-                for($j=0; $j<count($faq["answer"]); $j++){
-                    $anwerParagraph = $faq["answer"][$j];
+                foreach($faq["answer"] as $anwerParagraph){
                     echo "</br><p>". $anwerParagraph . "</p>";
                 }
             }
